@@ -1,0 +1,8 @@
+
+
+            #region InitRecurrentJobs
+
+            JobManager.JobFactory = new FluentSchedulerJobFactory(ServiceProvider);
+            JobManager.Initialize(new LeaseApiBgScheduleJobsRegistry());
+
+            #endregion InitRecurrentJobs
