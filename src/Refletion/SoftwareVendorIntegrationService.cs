@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using .Common.Api;
-using .CommunityData.Interfaces;
-using .CommunityData.Model;
-using .CommunityData.Model.Enums;
-using .VendorIntegrationService.Infrastructure.Options;
-using .VendorIntegrationService.Infrastructure.VendorImplementation;
-using .VendorIntegrationService.Services.ProxyResolver;
+using Common.Api;
+using CommunityData.Interfaces;
+using CommunityData.Model;
+using CommunityData.Model.Enums;
+using VendorIntegrationService.Infrastructure.Options;
+using VendorIntegrationService.Infrastructure.VendorImplementation;
+using VendorIntegrationService.Services.ProxyResolver;
 using Microsoft.Extensions.Options;
 
 namespace .VendorIntegrationService.Services.SoftwareVendorIntegration

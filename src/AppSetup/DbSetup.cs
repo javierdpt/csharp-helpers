@@ -1,6 +1,6 @@
 ﻿using System;
-using .RentersInsurance.Api.Infrastructure.Options;
-using .RentersInsurance.Data;
+using RentersInsurance.Api.Infrastructure.Options;
+using RentersInsurance.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;

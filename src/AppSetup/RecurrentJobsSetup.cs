@@ -1,4 +1,4 @@
-﻿using .RentersInsurance.Api.Services.RecurrentJobs;
+﻿using RentersInsurance.Api.Services.RecurrentJobs;
 using Microsoft.AspNetCore.Builder;
 
 namespace .RentersInsurance.Api.Infrastructure.AppSetup

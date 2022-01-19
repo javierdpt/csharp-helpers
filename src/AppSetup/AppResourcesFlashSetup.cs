@@ -1,5 +1,5 @@
-﻿using .RentersInsurance.Api.Infrastructure.Constants;
-using .RentersInsurance.Api.Services.AppResources;
+﻿using RentersInsurance.Api.Infrastructure.Constants;
+using RentersInsurance.Api.Services.AppResources;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using System;

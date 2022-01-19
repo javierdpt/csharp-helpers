@@ -1,5 +1,5 @@
-﻿using .Lease.Model;
-using .Lease.Model.Enums;
+﻿using Lease.Model;
+using Lease.Model.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;

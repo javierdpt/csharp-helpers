@@ -1,5 +1,5 @@
-﻿using .RentersInsurance.Api.Infrastructure.Options;
-using .ServiceFabric.Infrastructure.ProxyResolver.Dtos;
+﻿using RentersInsurance.Api.Infrastructure.Options;
+using ServiceFabric.Infrastructure.ProxyResolver.Dtos;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;

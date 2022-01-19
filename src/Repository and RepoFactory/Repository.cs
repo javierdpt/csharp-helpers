@@ -1,4 +1,4 @@
-﻿using .CommunityData.Data.Infrastructure.Extensions;
+﻿using CommunityData.Data.Infrastructure.Extensions;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using System;

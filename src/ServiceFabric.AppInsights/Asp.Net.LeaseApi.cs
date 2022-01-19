@@ -1,7 +1,7 @@
-﻿using .Lease.Api.Infrastructure.AppSetup;
-using .Lease.Api.Interfaces;
-using .Lease.Api.Services;
-using .ServiceFabric.Infrastructure.Helpers;
+﻿using Lease.Api.Infrastructure.AppSetup;
+using Lease.Api.Interfaces;
+using Lease.Api.Services;
+using ServiceFabric.Infrastructure.Helpers;
 using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.ApplicationInsights.ServiceFabric;
 using Microsoft.ApplicationInsights.ServiceFabric.Module;

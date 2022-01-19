@@ -1,5 +1,5 @@
-﻿using .Lease.Model;
-using .Lease.Model.Enums;
+﻿using Lease.Model;
+using Lease.Model.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;

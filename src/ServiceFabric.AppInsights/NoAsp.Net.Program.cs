@@ -1,5 +1,5 @@
-﻿using .ServiceFabric.Infrastructure.Constants;
-using .ServiceFabric.Infrastructure.Extensions;
+﻿using ServiceFabric.Infrastructure.Constants;
+using ServiceFabric.Infrastructure.Extensions;
 using Microsoft.ApplicationInsights.DependencyCollector;
 using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.QuickPulse;

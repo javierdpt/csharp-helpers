@@ -1,4 +1,4 @@
-﻿using .ServiceFabric.Infrastructure.ProxyResolver.Dtos;
+﻿using ServiceFabric.Infrastructure.ProxyResolver.Dtos;
 
 namespace .RentersInsurance.Api.Infrastructure.Options
 {

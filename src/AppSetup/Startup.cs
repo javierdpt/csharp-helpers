@@ -1,8 +1,8 @@
-﻿using .RentersInsurance.Api.Infrastructure.AppSetup;
-using .RentersInsurance.Api.Services.AppResources;
-using .RentersInsurance.Api.Services.RecurrentJobs;
-using .ServiceFabric.Infrastructure.Constants;
-using .ServiceFabric.Infrastructure.Middlewares;
+﻿using RentersInsurance.Api.Infrastructure.AppSetup;
+using RentersInsurance.Api.Services.AppResources;
+using RentersInsurance.Api.Services.RecurrentJobs;
+using ServiceFabric.Infrastructure.Constants;
+using ServiceFabric.Infrastructure.Middlewares;
 using Microsoft.ApplicationInsights.SnapshotCollector;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

@@ -1,5 +1,5 @@
 ﻿using FluentScheduler;
-using .Lease.Api.Infrastructure.FluenScheduler.Jobs;
+using Lease.Api.Infrastructure.FluenScheduler.Jobs;
 
 namespace .Lease.Api.Infrastructure.FluenScheduler
 {

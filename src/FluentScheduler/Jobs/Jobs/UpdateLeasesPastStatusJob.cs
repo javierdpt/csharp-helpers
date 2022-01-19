@@ -1,5 +1,5 @@
 ﻿using FluentScheduler;
-using .Lease.Api.Services.Leases;
+using Lease.Api.Services.Leases;
 using Microsoft.Extensions.Logging;
 using NLog;
 

@@ -1,5 +1,5 @@
-﻿using .ServiceFabric.Infrastructure.Constants;
-using .ServiceFabric.Infrastructure.Extensions;
+﻿using ServiceFabric.Infrastructure.Constants;
+using ServiceFabric.Infrastructure.Extensions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.ServiceFabric.Services.Runtime;
 using NLog;

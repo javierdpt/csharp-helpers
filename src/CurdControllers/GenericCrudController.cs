@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using .Lease.Api.Infrastructure.Exceptions;
-using .Lease.Data;
-using .Lease.Model;
+using Lease.Api.Infrastructure.Exceptions;
+using Lease.Data;
+using Lease.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;

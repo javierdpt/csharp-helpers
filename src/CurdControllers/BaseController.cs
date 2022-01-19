@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using .Lease.Api.Infrastructure.Constants;
-using .Lease.Data;
-using .Lease.Model;
+using Lease.Api.Infrastructure.Constants;
+using Lease.Data;
+using Lease.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

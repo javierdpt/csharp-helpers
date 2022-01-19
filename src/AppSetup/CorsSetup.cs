@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using .RentersInsurance.Api.Infrastructure.Options;
+using RentersInsurance.Api.Infrastructure.Options;
 using Microsoft.Extensions.Options;
 
 namespace .RentersInsurance.Api.Infrastructure.AppSetup

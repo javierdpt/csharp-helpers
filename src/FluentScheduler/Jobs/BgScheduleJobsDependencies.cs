@@ -1,4 +1,4 @@
-﻿using .Lease.Api.Infrastructure.FluenScheduler.Jobs;
+﻿using Lease.Api.Infrastructure.FluenScheduler.Jobs;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace .Lease.Api.Infrastructure.FluenScheduler
