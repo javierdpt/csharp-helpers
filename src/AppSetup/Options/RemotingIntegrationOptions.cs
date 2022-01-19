@@ -1,6 +1,6 @@
 ﻿using ServiceFabric.Infrastructure.ProxyResolver.Dtos;
 
-namespace .RentersInsurance.Api.Infrastructure.Options
+namespace RentersInsurance.Api.Infrastructure.Options
 {
     /// <summary>
     /// Integrations options

@@ -58,8 +58,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Common\.Utilities\.Utilities.csproj" />
-    <ProjectReference Include="..\..\.Lease.Api\.Lease.Api.Interfaces\.Lease.Api.Interfaces.csproj" />
-    <ProjectReference Include="..\..\.Lease.Data\.Lease.Data.csproj" />
-    <ProjectReference Include="..\.Lease.LoadDataActor.Interfaces\.Lease.LoadDataActor.Interfaces.csproj" />
+    <ProjectReference Include="..\..\.Api\.Api.Interfaces\.Api.Interfaces.csproj" />
+    <ProjectReference Include="..\..\.Data\.Data.csproj" />
+    <ProjectReference Include="..\.LoadDataActor.Interfaces\.LoadDataActor.Interfaces.csproj" />
   </ItemGroup>
 </Project>

@@ -1,5 +1,5 @@
-﻿using Lease.Model;
-using Lease.Model.Enums;
+﻿using Model;
+using Model.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -7,12 +7,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using ImageType = .Lease.Model.ImageType;
-using PhoneType = .Lease.Model.PhoneType;
-using Product = .Lease.Model.Product;
-using Program = .Lease.Model.Program;
+using ImageType = .Model.ImageType;
+using PhoneType = .Model.PhoneType;
+using Product = .Model.Product;
+using Program = .Model.Program;
 
-namespace .Lease.Data.Infrastructure.SampleData
+namespace Data.Infrastructure.SampleData
 {
     public partial class LeaseDataInitializer
     {

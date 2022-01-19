@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace .Lease.Api.Infrastructure.DataTables
+namespace Api.Infrastructure.DataTables
 {
     /// <summary>
     /// DataTable params model binder

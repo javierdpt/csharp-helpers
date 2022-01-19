@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace .RentersInsurance.Api.Infrastructure.AppSetup
+namespace RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// Application Database access setup

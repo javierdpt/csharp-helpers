@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Reflection;
 
-namespace .RentersInsurance.Api.Infrastructure.Extensions
+namespace RentersInsurance.Api.Infrastructure.Extensions
 {
     /// <summary>
     /// Object extension methods

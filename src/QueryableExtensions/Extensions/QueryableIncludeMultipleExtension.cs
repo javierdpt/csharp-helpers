@@ -3,7 +3,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 
-namespace .Lease.Data.Infrastructure.Extensions
+namespace Data.Infrastructure.Extensions
 {
     public static class QueryableIncludeMultipleExtension
     {

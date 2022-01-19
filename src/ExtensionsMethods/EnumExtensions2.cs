@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Reflection;
 
-namespace .Lease.Api.Infrastructure.ExtensionMethods
+namespace Api.Infrastructure.ExtensionMethods
 {
     /// <summary>
     /// Enum extensions methods

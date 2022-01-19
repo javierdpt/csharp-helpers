@@ -2,15 +2,15 @@
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using Lease.Api.Infrastructure.Exceptions;
-using Lease.Data;
-using Lease.Model;
+using Api.Infrastructure.Exceptions;
+using Data;
+using Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using IHasId = .Lease.Data.Models.IHasId;
+using IHasId = .Data.Models.IHasId;
 
-namespace .Lease.Api.Controllers.Base
+namespace Api.Controllers.Base
 {
     /// <summary>
     /// Base READ api controller

@@ -9,7 +9,7 @@ using System.Fabric;
 using System.IO;
 using System.Linq;
 
-namespace .RentersInsurance.Api.Infrastructure.AppSetup
+namespace RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// Swagger setup

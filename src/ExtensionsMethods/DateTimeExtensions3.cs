@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace .RentersInsurance.Api.Infrastructure.Extensions
+namespace RentersInsurance.Api.Infrastructure.Extensions
 {
     /// <summary>
     /// DateTime extensions methods

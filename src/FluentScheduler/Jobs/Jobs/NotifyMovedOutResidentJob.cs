@@ -1,9 +1,9 @@
 ﻿using System;
 using FluentScheduler;
-using Lease.Api.Services.Leases;
+using Api.Services.Leases;
 using Microsoft.Extensions.Logging;
 
-namespace .Lease.Api.Infrastructure.FluenScheduler.Jobs
+namespace Api.Infrastructure.FluenScheduler.Jobs
 {
     /// <summary>
     /// NotifyMovedOutResidentJob IJob class

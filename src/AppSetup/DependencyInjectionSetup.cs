@@ -24,7 +24,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace .RentersInsurance.Api.Infrastructure.AppSetup
+namespace RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// App dependency injection setup

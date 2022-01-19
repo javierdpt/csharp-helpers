@@ -1,4 +1,4 @@
-﻿namespace .CommunityData.Data.Repositories
+﻿namespace CommunityData.Data.Repositories
 {
     public interface IRepositoryFactory
     {

@@ -1,6 +1,6 @@
-﻿using Lease.Api.Infrastructure.AppSetup;
-using Lease.Api.Interfaces;
-using Lease.Api.Services;
+﻿using Api.Infrastructure.AppSetup;
+using Api.Interfaces;
+using Api.Services;
 using ServiceFabric.Infrastructure.Helpers;
 using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.ApplicationInsights.ServiceFabric;
@@ -18,7 +18,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace .Lease.Api
+namespace Api
 {
     internal sealed class LeaseApi : StatelessService
     {

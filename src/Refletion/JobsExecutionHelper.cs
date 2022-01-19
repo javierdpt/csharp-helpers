@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Jobs.HangfireService.Infrastructure.Converters;
 
-namespace .Jobs.HangfireService.Infrastructure.JobExecutionHelper
+namespace Jobs.HangfireService.Infrastructure.JobExecutionHelper
 {
     public static class JobsExecutionHelper
     {

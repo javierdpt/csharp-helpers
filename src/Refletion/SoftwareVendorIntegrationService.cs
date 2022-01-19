@@ -12,7 +12,7 @@ using VendorIntegrationService.Infrastructure.VendorImplementation;
 using VendorIntegrationService.Services.ProxyResolver;
 using Microsoft.Extensions.Options;
 
-namespace .VendorIntegrationService.Services.SoftwareVendorIntegration
+namespace VendorIntegrationService.Services.SoftwareVendorIntegration
 {
     public class SoftwareVendorIntegrationService : ISoftwareVendorIntegrationService
     {

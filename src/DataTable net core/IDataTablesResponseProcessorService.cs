@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using AutoMapper;
 
-namespace .Lease.Api.Infrastructure.DataTables
+namespace Api.Infrastructure.DataTables
 {
     /// <summary>
     /// IDataTablesResponseProcessorService contract

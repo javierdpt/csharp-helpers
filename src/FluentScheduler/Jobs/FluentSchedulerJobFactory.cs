@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace .Lease.Api.Infrastructure.FluenScheduler
+namespace Api.Infrastructure.FluenScheduler
 {
     /// <summary>
     /// Fluensheduler job factory

@@ -1,7 +1,7 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using System;
 
-namespace .RentersInsurance.Api.Infrastructure.Options
+namespace RentersInsurance.Api.Infrastructure.Options
 {
     /// <summary>
     /// App options

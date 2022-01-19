@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 
-namespace .RentersInsurance.Api.Infrastructure.AppSetup
+namespace RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// Add application setup

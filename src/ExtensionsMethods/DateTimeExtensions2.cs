@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace .Lease.Api.Infrastructure.ExtensionMethods
+namespace Api.Infrastructure.ExtensionMethods
 {
     /// <summary>
     /// Extension methods for DateTime objects

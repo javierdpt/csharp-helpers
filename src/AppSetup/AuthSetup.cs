@@ -5,7 +5,7 @@ using System;
 using Okta.AspNet.Abstractions;
 using Okta.AspNetCore;
 
-namespace .RentersInsurance.Api.Infrastructure.AppSetup
+namespace RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// Auth setup

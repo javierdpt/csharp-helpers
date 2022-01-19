@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System.Linq;
 
-namespace .RentersInsurance.Api.Infrastructure.Extensions
+namespace RentersInsurance.Api.Infrastructure.Extensions
 {
     /// <summary>
     /// HttpRequest extensions methods

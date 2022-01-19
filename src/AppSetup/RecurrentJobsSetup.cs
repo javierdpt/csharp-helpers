@@ -1,7 +1,7 @@
 ﻿using RentersInsurance.Api.Services.RecurrentJobs;
 using Microsoft.AspNetCore.Builder;
 
-namespace .RentersInsurance.Api.Infrastructure.AppSetup
+namespace RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// Swagger setup

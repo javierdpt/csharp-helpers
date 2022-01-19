@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace .Jobs.HangfireService.Infrastructure.Extensions
+namespace Jobs.HangfireService.Infrastructure.Extensions
 {
     public static class DateTimeExtensions
     {

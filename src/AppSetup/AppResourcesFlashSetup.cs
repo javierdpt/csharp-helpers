@@ -6,7 +6,7 @@ using System;
 using System.Net;
 using AppEndpointsConst = .RentersInsurance.Api.Infrastructure.Constants.AppEndpointsConst;
 
-namespace .RentersInsurance.Api.Infrastructure.AppSetup
+namespace RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// App Resources Flash map middleware Setup

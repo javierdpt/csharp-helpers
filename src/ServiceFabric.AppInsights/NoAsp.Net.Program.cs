@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Fabric;
 using System.Threading;
 
-namespace .Lease.LoadDataActor
+namespace LoadDataActor
 {
     internal static class Program
     {

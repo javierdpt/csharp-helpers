@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace .Lease.Api.Infrastructure.ExtensionMethods
+namespace Api.Infrastructure.ExtensionMethods
 {
     /// <summary>
     /// Expression comparison methods for search in entity by property as string

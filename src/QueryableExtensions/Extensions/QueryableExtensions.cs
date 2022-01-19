@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Query.Internal;
 using Microsoft.EntityFrameworkCore.Storage;
 using Remotion.Linq.Parsing.Structure;
 
-namespace .Lease.Data.Infrastructure.Extensions
+namespace Data.Infrastructure.Extensions
 {
     public static class QueryableExtensions
     {

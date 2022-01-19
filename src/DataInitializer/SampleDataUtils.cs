@@ -1,14 +1,14 @@
-﻿using Lease.Model;
-using Lease.Model.Enums;
+﻿using Model;
+using Model.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using ImageType = .Lease.Model.ImageType;
-using PhoneType = .Lease.Model.PhoneType;
-using Product = .Lease.Model.Product;
-using Program = .Lease.Model.Program;
+using ImageType = .Model.ImageType;
+using PhoneType = .Model.PhoneType;
+using Product = .Model.Product;
+using Program = .Model.Program;
 
-namespace .Lease.Data.Infrastructure.SampleData
+namespace Data.Infrastructure.SampleData
 {
     public class SampleDataUtils
     {
@@ -228,7 +228,7 @@ namespace .Lease.Data.Infrastructure.SampleData
                 Resident = GetItem_IfNull_GetRandomItem(
                     resident,
                     () => GetRandom_Resident(rand, null, rand.Next(1, 1000))),
-                ProductItem = lease != null && lease.LeaseStatus == LeaseStatus.Completed ? GetItem_IfNull_GetRandomItem(
+                ProductItem = lease != null && LeaseStatus == LeaseStatus.Completed ? GetItem_IfNull_GetRandomItem(
                     productItem,
                     () => randProductItem) : randProductItem,
                 CommunicationMethod = CommunicationMethod.Email,
@@ -236,7 +236,7 @@ namespace .Lease.Data.Infrastructure.SampleData
 
             res.CoverageRequirements = Enumerable.Range(1, 1)
                 .Select(r => GetRandom_CoverageRequirement(rand, null, res)).ToList();
-            res.Lease.LeaseResidents.Add(res);
+            res.LeaseResidents.Add(res);
 
             return res;
         }

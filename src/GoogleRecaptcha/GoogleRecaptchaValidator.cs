@@ -6,7 +6,7 @@ using System.Text;
 using System.Web;
 using Newtonsoft.Json;
 
-namespace .PMC.Portal.Sitefinity.Infrastructure.GoogleRecaptcha
+namespace PMC.Portal.Sitefinity.Infrastructure.GoogleRecaptcha
 {
     internal class GoogleRecaptchaValidator
     {

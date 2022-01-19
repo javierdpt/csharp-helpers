@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using Lease.Api.Infrastructure.Constants;
-using Lease.Data;
-using Lease.Model;
+using Api.Infrastructure.Constants;
+using Data;
+using Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace .Lease.Api.Controllers.Base
+namespace Api.Controllers.Base
 {
     /// <summary>BaseController with dependencies</summary>
     [Authorize(Policy = PoliciesConstants.ScopeLeaseApi)]

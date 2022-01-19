@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace .Lease.Api.Infrastructure.DataTables
+namespace Api.Infrastructure.DataTables
 {
     /// <summary>
     /// DataTableParamModelBinderProvider class

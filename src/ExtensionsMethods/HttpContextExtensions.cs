@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Security.Claims;
 
-namespace .Lease.Api.Infrastructure.ExtensionMethods
+namespace Api.Infrastructure.ExtensionMethods
 {
     /// <summary>
     /// HttpContext Extensions methods

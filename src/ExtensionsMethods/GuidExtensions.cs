@@ -2,7 +2,7 @@
 using System.Buffers.Text;
 using System.Runtime.InteropServices;
 
-namespace .Common.Extensions
+namespace Common.Extensions
 {
     public static class GuidExtensions
     {

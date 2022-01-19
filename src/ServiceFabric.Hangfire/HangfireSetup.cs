@@ -61,7 +61,7 @@ namespace HangfireService.Infrastructure.AppSetup
                 Queues = new[]
                 {
                     QueueNamesEnum.integration.ToString(),
-                    QueueNamesEnum.lease.ToString(),
+                    QueueNamesEnum.ToString(),
                     QueueNamesEnum.@default.ToString()
                 },
             });

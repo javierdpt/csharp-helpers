@@ -9,7 +9,7 @@ using System.Diagnostics;
 using System.Fabric;
 using System.Threading;
 
-namespace .Lease.Api
+namespace Api
 {
     internal static class Program
     {

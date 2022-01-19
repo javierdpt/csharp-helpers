@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using RentersInsurance.Api.Infrastructure.Options;
 using Microsoft.Extensions.Options;
 
-namespace .RentersInsurance.Api.Infrastructure.AppSetup
+namespace RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// Setup application cors

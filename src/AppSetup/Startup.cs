@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace .RentersInsurance.Api
+namespace RentersInsurance.Api
 {
     /// <summary>
     /// Project Startup class
