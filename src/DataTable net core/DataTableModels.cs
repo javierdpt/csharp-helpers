@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace GS.MFH.Lease.Api.Infrastructure.DataTables
+namespace .Lease.Api.Infrastructure.DataTables
 {
     /// <summary>
     /// DataTable request model definition

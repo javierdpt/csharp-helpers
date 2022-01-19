@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace GS.MFH.Jobs.HangfireService.Infrastructure.Extensions
+namespace .Jobs.HangfireService.Infrastructure.Extensions
 {
     public static class StringExtensions
     {

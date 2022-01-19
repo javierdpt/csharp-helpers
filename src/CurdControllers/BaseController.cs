@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using GS.MFH.Lease.Api.Infrastructure.Constants;
-using GS.MFH.Lease.Data;
-using GS.MFH.Lease.Model;
+using .Lease.Api.Infrastructure.Constants;
+using .Lease.Data;
+using .Lease.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace GS.MFH.Lease.Api.Controllers.Base
+namespace .Lease.Api.Controllers.Base
 {
     /// <summary>BaseController with dependencies</summary>
     [Authorize(Policy = PoliciesConstants.ScopeLeaseApi)]

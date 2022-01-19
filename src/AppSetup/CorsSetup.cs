@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using GS.MFH.RentersInsurance.Api.Infrastructure.Options;
+using .RentersInsurance.Api.Infrastructure.Options;
 using Microsoft.Extensions.Options;
 
-namespace GS.MFH.RentersInsurance.Api.Infrastructure.AppSetup
+namespace .RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// Setup application cors

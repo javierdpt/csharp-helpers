@@ -1,10 +1,10 @@
-﻿using GS.MFH.RentersInsurance.Api.Infrastructure.Options;
-using GS.MFH.ServiceFabric.Infrastructure.ProxyResolver.Dtos;
+﻿using .RentersInsurance.Api.Infrastructure.Options;
+using .ServiceFabric.Infrastructure.ProxyResolver.Dtos;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 
-namespace GS.MFH.RentersInsurance.Api.Infrastructure.AppSetup
+namespace .RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// Add application setup

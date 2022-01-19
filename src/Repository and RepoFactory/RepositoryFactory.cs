@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace GS.MFH.CommunityData.Data.Repositories
+namespace .CommunityData.Data.Repositories
 {
     public class RepositoryFactory : IRepositoryFactory
     {

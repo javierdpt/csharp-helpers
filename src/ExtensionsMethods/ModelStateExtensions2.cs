@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace GS.MFH.Lease.Api.Infrastructure.ExtensionMethods
+namespace .Lease.Api.Infrastructure.ExtensionMethods
 {
     /// <summary>
     /// Model State Extensions methods

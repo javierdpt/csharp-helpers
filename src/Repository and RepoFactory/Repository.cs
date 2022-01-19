@@ -1,4 +1,4 @@
-﻿using GS.MFH.CommunityData.Data.Infrastructure.Extensions;
+﻿using .CommunityData.Data.Infrastructure.Extensions;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using System;
@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace GS.MFH.CommunityData.Data.Repositories
+namespace .CommunityData.Data.Repositories
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {

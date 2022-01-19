@@ -4,7 +4,7 @@ using System;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace GS.MFH.Jobs.HangfireService.Infrastructure.Extensions
+namespace .Jobs.HangfireService.Infrastructure.Extensions
 {
     public static class HttpContextExtension
     {

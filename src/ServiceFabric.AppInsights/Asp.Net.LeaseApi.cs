@@ -1,7 +1,7 @@
-﻿using GS.MFH.Lease.Api.Infrastructure.AppSetup;
-using GS.MFH.Lease.Api.Interfaces;
-using GS.MFH.Lease.Api.Services;
-using GS.MFH.ServiceFabric.Infrastructure.Helpers;
+﻿using .Lease.Api.Infrastructure.AppSetup;
+using .Lease.Api.Interfaces;
+using .Lease.Api.Services;
+using .ServiceFabric.Infrastructure.Helpers;
 using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.ApplicationInsights.ServiceFabric;
 using Microsoft.ApplicationInsights.ServiceFabric.Module;
@@ -18,7 +18,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace GS.MFH.Lease.Api
+namespace .Lease.Api
 {
     internal sealed class LeaseApi : StatelessService
     {

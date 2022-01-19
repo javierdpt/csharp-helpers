@@ -1,6 +1,6 @@
-﻿using GS.MFH.ServiceFabric.Infrastructure.ProxyResolver.Dtos;
+﻿using .ServiceFabric.Infrastructure.ProxyResolver.Dtos;
 
-namespace GS.MFH.RentersInsurance.Api.Infrastructure.Options
+namespace .RentersInsurance.Api.Infrastructure.Options
 {
     /// <summary>
     /// Integrations options

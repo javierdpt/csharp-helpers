@@ -1,16 +1,16 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using GS.MFH.Lease.Api.Infrastructure.Exceptions;
-using GS.MFH.Lease.Data;
-using GS.MFH.Lease.Model;
+using .Lease.Api.Infrastructure.Exceptions;
+using .Lease.Data;
+using .Lease.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using IHasId = GS.MFH.Lease.Data.Models.IHasId;
+using IHasId = .Lease.Data.Models.IHasId;
 
-namespace GS.MFH.Lease.Api.Controllers.Base
+namespace .Lease.Api.Controllers.Base
 {
     /// <inheritdoc />
     /// <summary>

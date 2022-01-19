@@ -1,14 +1,14 @@
-﻿using GS.MFH.Jobs.HangfireService.Infrastructure.Attributes;
-using GS.MFH.Jobs.HangfireService.Services.ProxyResolver;
+﻿using .Jobs.HangfireService.Infrastructure.Attributes;
+using .Jobs.HangfireService.Services.ProxyResolver;
 using Hangfire;
 using Microsoft.Extensions.DependencyInjection;
 using NLog;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using GS.MFH.Jobs.HangfireService.Infrastructure.Converters;
+using .Jobs.HangfireService.Infrastructure.Converters;
 
-namespace GS.MFH.Jobs.HangfireService.Infrastructure.JobExecutionHelper
+namespace .Jobs.HangfireService.Infrastructure.JobExecutionHelper
 {
     public static class JobsExecutionHelper
     {

@@ -1,7 +1,7 @@
 ﻿using FluentScheduler;
-using GS.MFH.Lease.Api.Infrastructure.FluenScheduler.Jobs;
+using .Lease.Api.Infrastructure.FluenScheduler.Jobs;
 
-namespace GS.MFH.Lease.Api.Infrastructure.FluenScheduler
+namespace .Lease.Api.Infrastructure.FluenScheduler
 {
     /// <summary>
     /// LeaseApiBgScheduleJobsRegistry class

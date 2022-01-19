@@ -1,12 +1,12 @@
-﻿using GS.MFH.RentersInsurance.Api.Infrastructure.Constants;
-using GS.MFH.RentersInsurance.Api.Services.AppResources;
+﻿using .RentersInsurance.Api.Infrastructure.Constants;
+using .RentersInsurance.Api.Services.AppResources;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Net;
-using AppEndpointsConst = GS.MFH.RentersInsurance.Api.Infrastructure.Constants.AppEndpointsConst;
+using AppEndpointsConst = .RentersInsurance.Api.Infrastructure.Constants.AppEndpointsConst;
 
-namespace GS.MFH.RentersInsurance.Api.Infrastructure.AppSetup
+namespace .RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// App Resources Flash map middleware Setup

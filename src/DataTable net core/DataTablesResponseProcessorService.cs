@@ -5,10 +5,10 @@ using AutoMapper;
 using System.Linq.Dynamic.Core;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using GS.MFH.Lease.Api.Infrastructure.ExtensionMethods;
-using GS.MFH.Utilities.Extensions;
+using .Lease.Api.Infrastructure.ExtensionMethods;
+using .Utilities.Extensions;
 
-namespace GS.MFH.Lease.Api.Infrastructure.DataTables
+namespace .Lease.Api.Infrastructure.DataTables
 {
     /// <summary>
     /// DataTablesResponseProcessor service

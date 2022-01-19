@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.WindowsAzure.Storage;
 
-namespace GS.MFH.RentersInsurance.Api.Infrastructure.AppSetup
+namespace .RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// App data protection setup

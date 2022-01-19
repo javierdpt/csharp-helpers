@@ -1,5 +1,5 @@
-﻿using GS.MFH.ServiceFabric.Infrastructure.Constants;
-using GS.MFH.ServiceFabric.Infrastructure.Extensions;
+﻿using .ServiceFabric.Infrastructure.Constants;
+using .ServiceFabric.Infrastructure.Extensions;
 using Microsoft.ApplicationInsights.DependencyCollector;
 using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.ApplicationInsights.Extensibility.PerfCounterCollector.QuickPulse;
@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Fabric;
 using System.Threading;
 
-namespace GS.MFH.Lease.LoadDataActor
+namespace .Lease.LoadDataActor
 {
     internal static class Program
     {
@@ -49,7 +49,7 @@ namespace GS.MFH.Lease.LoadDataActor
             Settings = context
                 .CodePackageActivationContext
                 .GetConfigurationPackageObject("Config")
-                .ToDictionary()["GS.MFH.ServiceFabric.Settings"];
+                .ToDictionary()[".ServiceFabric.Settings"];
 
             Configurations = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json", false, true)

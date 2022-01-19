@@ -1,11 +1,11 @@
 ﻿using System;
-using GS.MFH.RentersInsurance.Api.Infrastructure.Options;
-using GS.MFH.RentersInsurance.Data;
+using .RentersInsurance.Api.Infrastructure.Options;
+using .RentersInsurance.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace GS.MFH.RentersInsurance.Api.Infrastructure.AppSetup
+namespace .RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// Application Database access setup

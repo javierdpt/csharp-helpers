@@ -1,7 +1,7 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using System;
 
-namespace GS.MFH.RentersInsurance.Api.Infrastructure.Options
+namespace .RentersInsurance.Api.Infrastructure.Options
 {
     /// <summary>
     /// App options
@@ -13,7 +13,7 @@ namespace GS.MFH.RentersInsurance.Api.Infrastructure.Options
         /// </summary>
         public AppOptions()
         {
-            SecKeyString = Program.Configuration["GS.MFH.ServiceFabric.Settings:SecKeyString"];
+            SecKeyString = Program.Configuration[".ServiceFabric.Settings:SecKeyString"];
             SecKey = new SymmetricSecurityKey(Convert.FromBase64String(SecKeyString));
         }
 

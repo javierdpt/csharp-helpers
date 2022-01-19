@@ -5,7 +5,7 @@ using System;
 using Okta.AspNet.Abstractions;
 using Okta.AspNetCore;
 
-namespace GS.MFH.RentersInsurance.Api.Infrastructure.AppSetup
+namespace .RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// Auth setup
@@ -20,7 +20,7 @@ namespace GS.MFH.RentersInsurance.Api.Infrastructure.AppSetup
         public static IServiceCollection AddAppAuth(this IServiceCollection services)
         {
             var secKey = new SymmetricSecurityKey(
-                Convert.FromBase64String(Program.Configuration["GS.MFH.ServiceFabric.Settings:SecKeyString"]));
+                Convert.FromBase64String(Program.Configuration[".ServiceFabric.Settings:SecKeyString"]));
             services
                 .AddAuthentication()
                 .AddJwtBearer(AppSchemeName, options =>

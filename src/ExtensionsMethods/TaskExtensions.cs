@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-namespace GS.MFH.Lease.Api.Infrastructure.ExtensionMethods
+namespace .Lease.Api.Infrastructure.ExtensionMethods
 {
     /// <summary>
     /// Task extension methods

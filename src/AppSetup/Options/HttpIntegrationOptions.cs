@@ -1,4 +1,4 @@
-﻿namespace GS.MFH.RentersInsurance.Api.Infrastructure.Options
+﻿namespace .RentersInsurance.Api.Infrastructure.Options
 {
     /// <summary>
     /// Http integration options

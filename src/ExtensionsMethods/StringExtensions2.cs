@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GS.MFH.RentersInsurance.Api.Infrastructure.Extensions
+namespace .RentersInsurance.Api.Infrastructure.Extensions
 {
     /// <summary>
     /// String extension methods

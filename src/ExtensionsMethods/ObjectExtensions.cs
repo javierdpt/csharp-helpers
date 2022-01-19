@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace GS.MFH.VendorIntegrationService.Infrastructure.Extensions
+namespace .VendorIntegrationService.Infrastructure.Extensions
 {
     public static class ObjectExtensions
     {

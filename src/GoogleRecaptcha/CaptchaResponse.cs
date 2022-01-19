@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace GS.MFH.PMC.Portal.Sitefinity.Infrastructure.GoogleRecaptcha
+namespace .PMC.Portal.Sitefinity.Infrastructure.GoogleRecaptcha
 {
     internal class CaptchaResponse
     {

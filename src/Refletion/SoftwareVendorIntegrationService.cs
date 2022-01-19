@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using GS.MFH.Common.Api;
-using GS.MFH.CommunityData.Interfaces;
-using GS.MFH.CommunityData.Model;
-using GS.MFH.CommunityData.Model.Enums;
-using GS.MFH.VendorIntegrationService.Infrastructure.Options;
-using GS.MFH.VendorIntegrationService.Infrastructure.VendorImplementation;
-using GS.MFH.VendorIntegrationService.Services.ProxyResolver;
+using .Common.Api;
+using .CommunityData.Interfaces;
+using .CommunityData.Model;
+using .CommunityData.Model.Enums;
+using .VendorIntegrationService.Infrastructure.Options;
+using .VendorIntegrationService.Infrastructure.VendorImplementation;
+using .VendorIntegrationService.Services.ProxyResolver;
 using Microsoft.Extensions.Options;
 
-namespace GS.MFH.VendorIntegrationService.Services.SoftwareVendorIntegration
+namespace .VendorIntegrationService.Services.SoftwareVendorIntegration
 {
     public class SoftwareVendorIntegrationService : ISoftwareVendorIntegrationService
     {

@@ -1,9 +1,9 @@
 ﻿using FluentScheduler;
-using GS.MFH.Lease.Api.Services.Leases;
+using .Lease.Api.Services.Leases;
 using Microsoft.Extensions.Logging;
 using NLog;
 
-namespace GS.MFH.Lease.Api.Infrastructure.FluenScheduler.Jobs
+namespace .Lease.Api.Infrastructure.FluenScheduler.Jobs
 {
     /// <summary>
     /// UpdateLeasesPastStatusJob IJob class

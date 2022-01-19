@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace GS.MFH.Jobs.HangfireService.Infrastructure.Extensions
+namespace .Jobs.HangfireService.Infrastructure.Extensions
 {
     public static class TypeExtensions
     {

@@ -13,13 +13,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GS.MFH.Common" Version="1.0.17" />
-    <PackageReference Include="GS.MFH.ServiceFabric.Common.Clients" Version="1.2.2" />
-    <PackageReference Include="GS.MFH.ServiceFabric.Infrastructure" Version="1.2.0" />
-    <PackageReference Include="GS.MFH.ServiceFabric.JsonSerializer" Version="1.0.31" />
-    <PackageReference Include="GS.MFH.CommunityData.Interfaces" Version="2.3.1" />
-    <PackageReference Include="GS.MFH.VendorIntegration.Interfaces" Version="1.1.8" />
-    <PackageReference Include="GS.MFH.Jobs.HangfireService.Interfaces" Version="1.1.2" />
+    <PackageReference Include=".Common" Version="1.0.17" />
+    <PackageReference Include=".ServiceFabric.Common.Clients" Version="1.2.2" />
+    <PackageReference Include=".ServiceFabric.Infrastructure" Version="1.2.0" />
+    <PackageReference Include=".ServiceFabric.JsonSerializer" Version="1.0.31" />
+    <PackageReference Include=".CommunityData.Interfaces" Version="2.3.1" />
+    <PackageReference Include=".VendorIntegration.Interfaces" Version="1.1.8" />
+    <PackageReference Include=".Jobs.HangfireService.Interfaces" Version="1.1.2" />
 
     <PackageReference Include="Microsoft.ApplicationInsights.PerfCounterCollector" Version="2.14.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="2.14.0" />
@@ -57,9 +57,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Common\GS.MFH.Utilities\GS.MFH.Utilities.csproj" />
-    <ProjectReference Include="..\..\GS.MFH.Lease.Api\GS.MFH.Lease.Api.Interfaces\GS.MFH.Lease.Api.Interfaces.csproj" />
-    <ProjectReference Include="..\..\GS.MFH.Lease.Data\GS.MFH.Lease.Data.csproj" />
-    <ProjectReference Include="..\GS.MFH.Lease.LoadDataActor.Interfaces\GS.MFH.Lease.LoadDataActor.Interfaces.csproj" />
+    <ProjectReference Include="..\..\..\Common\.Utilities\.Utilities.csproj" />
+    <ProjectReference Include="..\..\.Lease.Api\.Lease.Api.Interfaces\.Lease.Api.Interfaces.csproj" />
+    <ProjectReference Include="..\..\.Lease.Data\.Lease.Data.csproj" />
+    <ProjectReference Include="..\.Lease.LoadDataActor.Interfaces\.Lease.LoadDataActor.Interfaces.csproj" />
   </ItemGroup>
 </Project>

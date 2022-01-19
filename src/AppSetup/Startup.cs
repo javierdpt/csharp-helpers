@@ -1,8 +1,8 @@
-﻿using GS.MFH.RentersInsurance.Api.Infrastructure.AppSetup;
-using GS.MFH.RentersInsurance.Api.Services.AppResources;
-using GS.MFH.RentersInsurance.Api.Services.RecurrentJobs;
-using GS.MFH.ServiceFabric.Infrastructure.Constants;
-using GS.MFH.ServiceFabric.Infrastructure.Middlewares;
+﻿using .RentersInsurance.Api.Infrastructure.AppSetup;
+using .RentersInsurance.Api.Services.AppResources;
+using .RentersInsurance.Api.Services.RecurrentJobs;
+using .ServiceFabric.Infrastructure.Constants;
+using .ServiceFabric.Infrastructure.Middlewares;
 using Microsoft.ApplicationInsights.SnapshotCollector;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace GS.MFH.RentersInsurance.Api
+namespace .RentersInsurance.Api
 {
     /// <summary>
     /// Project Startup class

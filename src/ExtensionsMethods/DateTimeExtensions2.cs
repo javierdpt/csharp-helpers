@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GS.MFH.Lease.Api.Infrastructure.ExtensionMethods
+namespace .Lease.Api.Infrastructure.ExtensionMethods
 {
     /// <summary>
     /// Extension methods for DateTime objects

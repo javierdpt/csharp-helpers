@@ -1,5 +1,5 @@
-﻿using GS.MFH.ServiceFabric.Infrastructure.Constants;
-using GS.MFH.ServiceFabric.Infrastructure.Extensions;
+﻿using .ServiceFabric.Infrastructure.Constants;
+using .ServiceFabric.Infrastructure.Extensions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.ServiceFabric.Services.Runtime;
 using NLog;
@@ -9,7 +9,7 @@ using System.Diagnostics;
 using System.Fabric;
 using System.Threading;
 
-namespace GS.MFH.Lease.Api
+namespace .Lease.Api
 {
     internal static class Program
     {
@@ -55,7 +55,7 @@ namespace GS.MFH.Lease.Api
             Settings = context
                 .CodePackageActivationContext
                 .GetConfigurationPackageObject("Config")
-                .ToDictionary()["GS.MFH.ServiceFabric.Settings"];
+                .ToDictionary()[".ServiceFabric.Settings"];
             Configurations = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json", false, true)
                 .AddJsonFile($"appsettings.{Settings["Environment"]}.json")

@@ -1,14 +1,14 @@
-﻿using GS.MFH.Lease.Model;
-using GS.MFH.Lease.Model.Enums;
+﻿using .Lease.Model;
+using .Lease.Model.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using ImageType = GS.MFH.Lease.Model.ImageType;
-using PhoneType = GS.MFH.Lease.Model.PhoneType;
-using Product = GS.MFH.Lease.Model.Product;
-using Program = GS.MFH.Lease.Model.Program;
+using ImageType = .Lease.Model.ImageType;
+using PhoneType = .Lease.Model.PhoneType;
+using Product = .Lease.Model.Product;
+using Program = .Lease.Model.Program;
 
-namespace GS.MFH.Lease.Data.Infrastructure.SampleData
+namespace .Lease.Data.Infrastructure.SampleData
 {
     public class SampleDataUtils
     {

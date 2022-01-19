@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GS.MFH.Common.Extensions
+namespace .Common.Extensions
 {
     public static class ExceptionExtensions
     {

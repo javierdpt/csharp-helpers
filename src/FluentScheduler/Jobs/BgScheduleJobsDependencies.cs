@@ -1,7 +1,7 @@
-﻿using GS.MFH.Lease.Api.Infrastructure.FluenScheduler.Jobs;
+﻿using .Lease.Api.Infrastructure.FluenScheduler.Jobs;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace GS.MFH.Lease.Api.Infrastructure.FluenScheduler
+namespace .Lease.Api.Infrastructure.FluenScheduler
 {
     /// <summary>
     /// Class to register dependencies of the bg scheduled jobs

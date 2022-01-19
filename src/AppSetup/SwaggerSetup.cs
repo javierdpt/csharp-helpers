@@ -1,4 +1,4 @@
-﻿using GS.MFH.ServiceFabric.Infrastructure.Constants;
+﻿using .ServiceFabric.Infrastructure.Constants;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,7 +9,7 @@ using System.Fabric;
 using System.IO;
 using System.Linq;
 
-namespace GS.MFH.RentersInsurance.Api.Infrastructure.AppSetup
+namespace .RentersInsurance.Api.Infrastructure.AppSetup
 {
     /// <summary>
     /// Swagger setup
